@@ -1,0 +1,29 @@
+Object1
+Main part of the budget: 55
+Borrowed part of the budget: 9
+
+Object2
+Main part of the budget: 5
+Borrowed part of the budget: 3
+
+Object1 == Object2 - No
+
+Object1 != Object2 - Yes
+
+Addition
+Main part of the budget: 60
+Borrowed part of the budget: 12
+
+Subtraction
+Main part of the budget: 50
+Borrowed part of the budget: 6
+
+Division
+Main part of the budget: 11
+Borrowed part of the budget: 3
+
+Multiplication
+Main part of the budget: 275
+Borrowed part of the budget: 27
+
+

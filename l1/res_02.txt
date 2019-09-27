@@ -1,0 +1,31 @@
+Object1
+Main part of the budget: 100.11
+Borrowed part of the budget: 20.34
+
+Object2
+Main part of the budget: 5.01
+Borrowed part of the budget: 5
+
+Object1 == Object2 - No
+
+Object1 != Object2 - Yes
+
+Addition
+Main part of the budget: 105.12
+Borrowed part of the budget: 25.34
+
+Subtraction
+Main part of the budget: 95.1
+Borrowed part of the budget: 15.34
+
+Division
+Main part of the budget: 19.98
+Borrowed part of the budget: 4.07
+
+Multiplication
+Main part of the budget: 501.55
+Borrowed part of the budget: 101.7
+
+
+
+

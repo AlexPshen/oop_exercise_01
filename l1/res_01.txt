@@ -1,0 +1,30 @@
+Object1
+Main part of the budget: 1
+Borrowed part of the budget: 1
+
+Object2
+Main part of the budget: 1
+Borrowed part of the budget: 1
+
+Object1 == Object2 - Yes
+
+Object1 != Object2 - No
+
+Addition
+Main part of the budget: 2
+Borrowed part of the budget: 2
+
+Subtraction
+Main part of the budget: 0
+Borrowed part of the budget: 0
+
+Division
+Main part of the budget: 1
+Borrowed part of the budget: 1
+
+Multiplication
+Main part of the budget: 1
+Borrowed part of the budget: 1
+
+
+
