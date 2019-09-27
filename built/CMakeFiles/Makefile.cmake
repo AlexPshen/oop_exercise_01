@@ -10,7 +10,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.15.3/CMakeCCompiler.cmake"
   "CMakeFiles/3.15.3/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.15.3/CMakeSystem.cmake"
-  "/home/ap/oop_exercise_01/l1/CMakeLists.txt"
+  "/home/ap/oop_exercise_01/oop_exercise_01/l1/CMakeLists.txt"
   "/usr/share/cmake-3.15/Modules/CMakeCInformation.cmake"
   "/usr/share/cmake-3.15/Modules/CMakeCXXInformation.cmake"
   "/usr/share/cmake-3.15/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake"

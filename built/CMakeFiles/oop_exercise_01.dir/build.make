@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ap/oop_exercise_01/l1
+CMAKE_SOURCE_DIR = /home/ap/oop_exercise_01/oop_exercise_01/l1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ap/oop_exercise_01/built
+CMAKE_BINARY_DIR = /home/ap/oop_exercise_01/oop_exercise_01/built
 
 # Include any dependencies generated for this target.
 include CMakeFiles/oop_exercise_01.dir/depend.make
@@ -58,30 +58,30 @@ include CMakeFiles/oop_exercise_01.dir/progress.make
 include CMakeFiles/oop_exercise_01.dir/flags.make
 
 CMakeFiles/oop_exercise_01.dir/main.cpp.o: CMakeFiles/oop_exercise_01.dir/flags.make
-CMakeFiles/oop_exercise_01.dir/main.cpp.o: /home/ap/oop_exercise_01/l1/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ap/oop_exercise_01/built/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/oop_exercise_01.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oop_exercise_01.dir/main.cpp.o -c /home/ap/oop_exercise_01/l1/main.cpp
+CMakeFiles/oop_exercise_01.dir/main.cpp.o: /home/ap/oop_exercise_01/oop_exercise_01/l1/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ap/oop_exercise_01/oop_exercise_01/built/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/oop_exercise_01.dir/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oop_exercise_01.dir/main.cpp.o -c /home/ap/oop_exercise_01/oop_exercise_01/l1/main.cpp
 
 CMakeFiles/oop_exercise_01.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/oop_exercise_01.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ap/oop_exercise_01/l1/main.cpp > CMakeFiles/oop_exercise_01.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ap/oop_exercise_01/oop_exercise_01/l1/main.cpp > CMakeFiles/oop_exercise_01.dir/main.cpp.i
 
 CMakeFiles/oop_exercise_01.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/oop_exercise_01.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ap/oop_exercise_01/l1/main.cpp -o CMakeFiles/oop_exercise_01.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ap/oop_exercise_01/oop_exercise_01/l1/main.cpp -o CMakeFiles/oop_exercise_01.dir/main.cpp.s
 
 CMakeFiles/oop_exercise_01.dir/budget.cpp.o: CMakeFiles/oop_exercise_01.dir/flags.make
-CMakeFiles/oop_exercise_01.dir/budget.cpp.o: /home/ap/oop_exercise_01/l1/budget.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ap/oop_exercise_01/built/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/oop_exercise_01.dir/budget.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oop_exercise_01.dir/budget.cpp.o -c /home/ap/oop_exercise_01/l1/budget.cpp
+CMakeFiles/oop_exercise_01.dir/budget.cpp.o: /home/ap/oop_exercise_01/oop_exercise_01/l1/budget.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ap/oop_exercise_01/oop_exercise_01/built/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/oop_exercise_01.dir/budget.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/oop_exercise_01.dir/budget.cpp.o -c /home/ap/oop_exercise_01/oop_exercise_01/l1/budget.cpp
 
 CMakeFiles/oop_exercise_01.dir/budget.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/oop_exercise_01.dir/budget.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ap/oop_exercise_01/l1/budget.cpp > CMakeFiles/oop_exercise_01.dir/budget.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ap/oop_exercise_01/oop_exercise_01/l1/budget.cpp > CMakeFiles/oop_exercise_01.dir/budget.cpp.i
 
 CMakeFiles/oop_exercise_01.dir/budget.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/oop_exercise_01.dir/budget.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ap/oop_exercise_01/l1/budget.cpp -o CMakeFiles/oop_exercise_01.dir/budget.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ap/oop_exercise_01/oop_exercise_01/l1/budget.cpp -o CMakeFiles/oop_exercise_01.dir/budget.cpp.s
 
 # Object files for target oop_exercise_01
 oop_exercise_01_OBJECTS = \
@@ -95,7 +95,7 @@ oop_exercise_01: CMakeFiles/oop_exercise_01.dir/main.cpp.o
 oop_exercise_01: CMakeFiles/oop_exercise_01.dir/budget.cpp.o
 oop_exercise_01: CMakeFiles/oop_exercise_01.dir/build.make
 oop_exercise_01: CMakeFiles/oop_exercise_01.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ap/oop_exercise_01/built/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable oop_exercise_01"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ap/oop_exercise_01/oop_exercise_01/built/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable oop_exercise_01"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/oop_exercise_01.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -108,6 +108,6 @@ CMakeFiles/oop_exercise_01.dir/clean:
 .PHONY : CMakeFiles/oop_exercise_01.dir/clean
 
 CMakeFiles/oop_exercise_01.dir/depend:
-	cd /home/ap/oop_exercise_01/built && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ap/oop_exercise_01/l1 /home/ap/oop_exercise_01/l1 /home/ap/oop_exercise_01/built /home/ap/oop_exercise_01/built /home/ap/oop_exercise_01/built/CMakeFiles/oop_exercise_01.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ap/oop_exercise_01/oop_exercise_01/built && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ap/oop_exercise_01/oop_exercise_01/l1 /home/ap/oop_exercise_01/oop_exercise_01/l1 /home/ap/oop_exercise_01/oop_exercise_01/built /home/ap/oop_exercise_01/oop_exercise_01/built /home/ap/oop_exercise_01/oop_exercise_01/built/CMakeFiles/oop_exercise_01.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/oop_exercise_01.dir/depend
 

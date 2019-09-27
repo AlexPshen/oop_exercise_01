@@ -27,14 +27,14 @@ void Budget::print(std::ostream& os){
     os << "Main part of the budget: " << a << '\n' << "Borrowed part of the budget: " << b << '\n' << '\n';
 }
 
-Budget Budget::add(const Budget bud) const{
+Budget Budget::add(const Budget& bud) const{
     Budget res{};
     res.a = a + bud.a;
     res.b = b + bud.b;
     return res;
 }
 
-Budget Budget::sub(const Budget bud) const{
+Budget Budget::sub(const Budget& bud) const{
     Budget res{};
     if(a > bud.a){
         res.a = a - bud.a;
@@ -49,24 +49,24 @@ Budget Budget::sub(const Budget bud) const{
     return res;
 }
 
-Budget Budget::mult(const Budget bud) const{
+Budget Budget::mult(const Budget& bud) const{
     Budget res{};
     res.a = round(a * bud.a * 100) / 100;
     res.b = round(b * bud.b * 100) / 100;
     return res;
 }
 
-Budget Budget::div(const Budget bud) const{
+Budget Budget::div(const Budget& bud) const{
     Budget res{};
     res.a = round(a / bud.a * 100) / 100;
     res.b = round(b / bud.b * 100) / 100;
     return res;
 }
 
-bool Budget::com(const Budget bud, std::ostream& os) const{
+bool Budget::com(const Budget& bud, std::ostream& os) const{
     return bud.a == a && bud.b == b;
 }
 
-bool Budget::no(const Budget bud, std::ostream& os) const{
+bool Budget::no(const Budget& bud, std::ostream& os) const{
     return (bud.a != a || bud.b != b);
 }

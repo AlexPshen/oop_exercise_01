@@ -6,7 +6,17 @@
 
 #IncludeRegexTransform: 
 
-/home/ap/oop_exercise_01/l1/budget.h
+/home/ap/oop_exercise_01/oop_exercise_01/l1/budget.cpp
+iostream
+-
+cstdlib
+-
+cmath
+-
+budget.h
+/home/ap/oop_exercise_01/oop_exercise_01/l1/budget.h
+
+/home/ap/oop_exercise_01/oop_exercise_01/l1/budget.h
 iostream
 -
 cstdlib
@@ -14,7 +24,7 @@ cstdlib
 cmath
 -
 
-/home/ap/oop_exercise_01/l1/main.cpp
+/home/ap/oop_exercise_01/oop_exercise_01/l1/main.cpp
 iostream
 -
 cstdlib
@@ -24,5 +34,5 @@ cmath
 fstream
 -
 budget.h
-/home/ap/oop_exercise_01/l1/budget.h
+/home/ap/oop_exercise_01/oop_exercise_01/l1/budget.h
 

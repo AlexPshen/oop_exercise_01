@@ -16,12 +16,12 @@ public:
     Budget(double ch1, double ch2);
     void read(std::istream& is);
     void print(std::ostream& os);
-    Budget add(const Budget bud) const;
-    Budget sub(const Budget bud) const;
-    Budget mult(const Budget bud) const;
-    Budget div(const Budget bud) const;
-    bool com(const Budget bud, std::ostream& os) const;
-    bool no(const Budget bud, std::ostream& os) const;
+    Budget add(const Budget& bud) const;
+    Budget sub(const Budget& bud) const;
+    Budget mult(const Budget& bud) const;
+    Budget div(const Budget& bud) const;
+    bool com(const Budget& bud, std::ostream& os) const;
+    bool no(const Budget& bud, std::ostream& os) const;
 };
 
 #endif
