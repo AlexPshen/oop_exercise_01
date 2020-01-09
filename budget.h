@@ -20,8 +20,8 @@ public:
     Budget sub(const Budget& bud) const;
     Budget mult(const Budget& bud) const;
     Budget div(const Budget& bud) const;
-    bool com(const Budget& bud, std::ostream& os) const;
-    bool no(const Budget& bud, std::ostream& os) const;
+    bool com(const Budget& bud) const;
+    bool no(const Budget& bud) const;
 };
 
 #endif

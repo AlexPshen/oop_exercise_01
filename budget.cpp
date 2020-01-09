@@ -63,10 +63,10 @@ Budget Budget::div(const Budget& bud) const{
     return res;
 }
 
-bool Budget::com(const Budget& bud, std::ostream& os) const{
+bool Budget::com(const Budget& bud) const{
     return bud.a == a && bud.b == b;
 }
 
-bool Budget::no(const Budget& bud, std::ostream& os) const{
+bool Budget::no(const Budget& bud) const{
     return (bud.a != a || bud.b != b);
 }

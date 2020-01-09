@@ -6,6 +6,16 @@
 
 #IncludeRegexTransform: 
 
+/home/ap/oop_exercise_01/oop_exercise_01/budget.cpp
+iostream
+-
+cstdlib
+-
+cmath
+-
+budget.h
+/home/ap/oop_exercise_01/oop_exercise_01/budget.h
+
 /home/ap/oop_exercise_01/oop_exercise_01/budget.h
 iostream
 -
