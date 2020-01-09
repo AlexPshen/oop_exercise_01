@@ -1,4 +1,4 @@
-# Install script for directory: /home/ap/oop_exercise_01/oop_exercise_01/l1
+# Install script for directory: /home/ap/oop_exercise_01/oop_exercise_01
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
